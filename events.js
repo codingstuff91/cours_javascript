@@ -10,3 +10,12 @@ const button = document.querySelector('#button')
 button.addEventListener('click', () => {
     alert('bravo vous avez cliqué sur le bouton !')
 })
+
+/**
+ * Ecouter n'importe quelle appui d'une touche du clavier
+ * Ensuite on lance une action à faire
+ * L'argument e passé a la function de callback permet de recuperer des détails supplementaires
+ */
+addEventListener('keypress', function(e){
+    console.log(e);
+})
