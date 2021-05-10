@@ -1,0 +1,11 @@
+{
+  "name": "cours_javascript",
+  "version": "1.0.0",
+  "description": "Projet pédagogique pour apprendre les bases de Javascript ES6 et +",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthieu MARTIN",
+  "license": "ISC"
+}
