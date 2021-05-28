@@ -19,6 +19,13 @@ console.log(paragraphes[0].innerHTML);
  */
 var new_div = document.createElement('div')
 
+// Ajouter une classe CSS 
+new_div.classList.add('toto')
+
+// Ajouter un ID 
+new_div.id = "test_id"
+
+// Ajouter la nouvelle DIV dans le corps de la page
 document.body.appendChild(new_div)
 
 /**
